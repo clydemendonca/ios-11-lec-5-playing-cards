@@ -13,6 +13,7 @@
 		C27847C6211C3DB800C373CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C27847C5211C3DB800C373CD /* Assets.xcassets */; };
 		C27847C9211C3DB800C373CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C27847C7211C3DB800C373CD /* LaunchScreen.storyboard */; };
 		C27847D2211C3E1900C373CD /* PlayingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27847D1211C3E1900C373CD /* PlayingCard.swift */; };
+		C27847D4211C437900C373CD /* PlayingCardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27847D3211C437900C373CD /* PlayingCardDeck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C27847C8211C3DB800C373CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C27847CA211C3DB800C373CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C27847D1211C3E1900C373CD /* PlayingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCard.swift; sourceTree = "<group>"; };
+		C27847D3211C437900C373CD /* PlayingCardDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardDeck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				C27847D0211C3DF200C373CD /* Supporting Files */,
 				C27847CA211C3DB800C373CD /* Info.plist */,
 				C27847D1211C3E1900C373CD /* PlayingCard.swift */,
+				C27847D3211C437900C373CD /* PlayingCardDeck.swift */,
 			);
 			path = PlayingCard;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C27847C1211C3DB700C373CD /* ViewController.swift in Sources */,
+				C27847D4211C437900C373CD /* PlayingCardDeck.swift in Sources */,
 				C27847D2211C3E1900C373CD /* PlayingCard.swift in Sources */,
 				C27847BF211C3DB700C373CD /* AppDelegate.swift in Sources */,
 			);
