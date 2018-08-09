@@ -7,11 +7,21 @@
 
 import Foundation
 
-struct PlayingCard {
+struct PlayingCard : CustomStringConvertible {
+    
+    var description: String {
+        return "\(rank)\(suit)"
+    }
+    
     var suit : Suit
     var rank : Rank
     
-    enum Suit : String {
+    enum Suit : String, CustomStringConvertible {
+        
+        var description: String {
+            return rawValue
+        }
+    
         case spades = "♠️"
         case hearts = "♥️"
         case diamonds = "♦️"
@@ -21,7 +31,12 @@ struct PlayingCard {
         
     }
     
-    enum Rank {
+    enum Rank : CustomStringConvertible {
+        
+        var description: String {
+            return "\(order)"
+        }
+        
         case ace
         case face(String)
         case numeric(Int)
