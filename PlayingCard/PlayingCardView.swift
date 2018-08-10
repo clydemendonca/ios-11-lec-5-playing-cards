@@ -7,14 +7,19 @@
 
 import UIKit
 
+@IBDesignable
 class PlayingCardView: UIView {
     
+    
+    @IBInspectable
     var rank : Int = 5 {
         didSet {
             setNeedsDisplay()
             setNeedsLayout() // For Subviews
         }
     }
+    
+    @IBInspectable
     var suit : String = "♥️" {
         didSet {
             setNeedsDisplay()
